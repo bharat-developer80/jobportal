@@ -7,6 +7,7 @@ import userRoute from "./routes/user.route.js";
 import companyRoute from './routes/company.route.js';
 import jobRoute from './routes/job.route.js';
 import applicantionRoute from './routes/application.route.js';
+
 import path from "path";
 
 dotenv.config({});
@@ -14,6 +15,7 @@ dotenv.config({});
 const app = express();
 
 const _dirname = path.resolve();
+
 
 // middleware
 app.use(express.json());
